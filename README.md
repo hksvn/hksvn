@@ -56,7 +56,35 @@
   <a href="https://discord.gg/hksvn">
     <img src="https://img.shields.io/badge/Discord-7289da?style=for-the-badge&logo=discord" alt="Discord" />
   </a>
+  <a href="https://web.facebook.com/HuyKaiser.profile?_rdc=1&_rdr">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://t.me/huykaiserOwO">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
 </p>
+
+---
+
+## 💻 JavaScript Introduction Code
+```javascript
+class Developer {
+    constructor(name, role, passion) {
+        this.name = name;
+        this.role = role;
+        this.passion = passion;
+    }
+
+    introduce() {
+        console.log(`Hello, I'm ${this.name}! 🚀`);
+        console.log(`A passionate ${this.role} & Open-Source Enthusiast`);
+        console.log(`I love ${this.passion} and exploring new technologies!`);
+    }
+}
+
+const huyKaiser = new Developer("HuyKaiser", "Full-Stack Developer", "building cool stuff with code");
+huyKaiser.introduce();
+```
 
 ---
 
