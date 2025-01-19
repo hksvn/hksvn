@@ -3,14 +3,14 @@
 <h1 align="center">🚀 HuyKaiser Dev</h1>
 <p align="center">
     <a href="https://github.com/hksvn">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=4A12BA&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Open-Source+Enthusiast;Building+cool+stuff+with+code" alt="Typing SVG" />
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=4A12BA&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Open-Source+Enthusiast;Building+cool+stuff+with+code" alt="Typing SVG" />
     </a>
 </p>
 
 <p align="center">
-  <img height="25" src="https://komarev.com/ghpvc/?username=hksvn&color=blueviolet" alt="Profile Views"/>
-  <img height="25" src="https://img.shields.io/github/followers/hksvn?color=4a12ba&style=for-the-badge&logo=github&label=Followers" alt="Followers"/>
-  <img height="25" src="https://img.shields.io/github/stars/hksvn?color=f429ff&style=for-the-badge&logo=github&label=Stars" alt="Stars"/>
+  <img src="https://komarev.com/ghpvc/?username=hksvn&color=blueviolet" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/hksvn?color=4a12ba&style=for-the-badge&logo=github&label=Followers" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/hksvn?color=f429ff&style=for-the-badge&logo=github&label=Stars" alt="Stars"/>
 </p>
 
 ---
@@ -18,14 +18,14 @@
 ## 🌍 About Me
 - 🔥 Passionate about **coding, automation, and AI**.
 - 🚀 Experienced in **Full-Stack Development**.
-- 🛠 Building innovative **projects & open-source tools**.
-- 💡 Always learning **new technologies**.
+- 🛠 Creating innovative **projects & open-source tools**.
+- 💡 Always learning **new technologies** to improve efficiency.
 
 ---
 
 ## 🛠 Tech Stack
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=py,ts,react,next,flask,nodejs,html,css,go,rust,c,csharp,cpp,php,js,docker,mysql,postgres,mongodb,linux,git" />
+    <img src="https://skillicons.dev/icons?i=py,ts,react,next,flask,nodejs,html,css,go,rust,c,cpp,php,java,javascript,docker,mysql,postgres,mongodb,linux,git,swift,kotlin,aws,azure,redis,graphql,cs,ruby,perl,scala,dart,flutter,vue,svelte,angular,redux,tailwind,bootstrap,terraform,kubernetes,gcp,solidity,threejs" />
 </p>
 
 ---
@@ -50,10 +50,7 @@
   <a href="https://github.com/hksvn">
     <img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/hksvn">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="https://discord.gg/hksvn">
+  <a href="https://discord.gg/vzh.nvhx">
     <img src="https://img.shields.io/badge/Discord-7289da?style=for-the-badge&logo=discord" alt="Discord" />
   </a>
   <a href="https://web.facebook.com/HuyKaiser.profile?_rdc=1&_rdr">
@@ -69,20 +66,33 @@
 ## 💻 JavaScript Introduction Code
 ```javascript
 class Developer {
-    constructor(name, role, passion) {
+    constructor(name, role, skills, passion, experience) {
         this.name = name;
         this.role = role;
+        this.skills = skills;
         this.passion = passion;
+        this.experience = experience;
     }
 
     introduce() {
-        console.log(`Hello, I'm ${this.name}! 🚀`);
-        console.log(`A passionate ${this.role} & Open-Source Enthusiast`);
-        console.log(`I love ${this.passion} and exploring new technologies!`);
+        console.log("\n🚀 Meet a Passionate Developer 🚀");
+        console.log(`👋 Hi, I'm ${this.name}!`);
+        console.log(`💻 Role: ${this.role}`);
+        console.log(`🛠️ Skills: ${this.skills.join(", ")}`);
+        console.log(`❤️ Passion: ${this.passion}`);
+        console.log(`📆 Experience: ${this.experience} years in the industry.`);
+        console.log("✨ Let's build something amazing together! ✨\n");
     }
 }
 
-const huyKaiser = new Developer("HuyKaiser", "Full-Stack Developer", "building cool stuff with code");
+const huyKaiser = new Developer(
+    "HuyKaiser", 
+    "Full-Stack Developer", 
+    ["JavaScript", "TypeScript", "React", "Node.js", "Go", "Rust", "Python", "C++", "Kotlin", "Swift", "AWS", "Azure", "Redis", "GraphQL", "PHP"],
+    "Building cool stuff with code and automation.",
+    5 
+);
+
 huyKaiser.introduce();
 ```
 
